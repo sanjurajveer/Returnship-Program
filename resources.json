@@ -1,0 +1,29 @@
+[
+  {
+    "id": "backtoworkconnect",
+    "name": "Back to Work Connect",
+    "url": "https://backtoworkconnect.ie/",
+    "region": ["Ireland"],
+    "type": "Directory",
+    "description": "Irish platform connecting returners with flexible roles, courses, and community resources.",
+    "logo": "https://backtoworkconnect.ie/wp-content/uploads/2020/07/btwc-logo.svg"
+  },
+  {
+    "id": "employmum",
+    "name": "Employmum | The Flexible Recruitment Company",
+    "url": "https://employmum.ie/",
+    "region": ["Ireland"],
+    "type": "Recruitment",
+    "description": "Specialist in flexible work and returner opportunities, plus coaching and employer partnerships.",
+    "logo": "https://employmum.ie/wp-content/uploads/2020/10/Employmum-logo.svg"
+  },
+  {
+    "id": "careerreturners-ireland",
+    "name": "Career Returners – Ireland",
+    "url": "https://careerreturners.com/career-returners-ireland/",
+    "region": ["Ireland", "UK", "EU"],
+    "type": "Programme Hub",
+    "description": "Curated returner programmes, events and guidance for experienced professionals returning to work.",
+    "logo": "https://careerreturners.com/wp-content/uploads/2022/08/career-returners-logo.svg"
+  }
+]

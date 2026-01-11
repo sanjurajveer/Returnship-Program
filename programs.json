@@ -1,0 +1,262 @@
+[
+  {
+    "id": "dell-restart",
+    "title": "Dell Restart Program",
+    "company": "Dell",
+    "durationWeeks": 16,
+    "paid": true,
+    "eligibility": "5+ years experience and 12+ months away from the workforce or underemployed",
+    "criteria": [
+      "12+ months career break",
+      "Resume support + mentorship"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "resume guidance",
+      "mentorship"
+    ],
+    "applicationUrl": "https://jobs.dell.com/en/restart",
+    "description": "16\u2011week paid returnship with training, mentorship, coaching, and potential conversion. Direct Hire path also available."
+  },
+  {
+    "id": "ibm-tech-reentry",
+    "title": "IBM Tech Re\u2011Entry Program",
+    "company": "IBM",
+    "durationWeeks": 26,
+    "paid": true,
+    "eligibility": "12+ months career break; paid, full\u2011time returnship",
+    "criteria": [
+      "12+ months break",
+      "Background in software/data/cloud"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "learning",
+      "projects",
+      "mentorship"
+    ],
+    "applicationUrl": "https://www.ibm.com/careers/blog/return-to-the-workforce-with-the-ibm-tech-re-entry-program",
+    "description": "Paid, full\u2011time returnship for technical professionals to refresh skills via prescriptive learning and real\u2011world projects; pathway to full\u2011time at IBM."
+  },
+  {
+    "id": "microsoft-leap",
+    "title": "Microsoft Leap Program",
+    "company": "Microsoft",
+    "durationWeeks": 16,
+    "paid": true,
+    "eligibility": "Solid foundation of technical training",
+    "criteria": [
+      "Bootcamp or equivalent",
+      "Strong fundamentals"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "immersive",
+      "bootcamp"
+    ],
+    "applicationUrl": "https://leap.microsoft.com/en-US/",
+    "description": "Immersive 16\u2011week blend of classroom learning and hands\u2011on engineering projects on real Microsoft teams (e.g., Azure, Xbox, Bing, Office)."
+  },
+  {
+    "id": "deloitte-rtw",
+    "title": "Deloitte Return to Work Programme",
+    "company": "Deloitte",
+    "durationWeeks": 39,
+    "paid": true,
+    "eligibility": "18+ months career break; right to work in Ireland",
+    "criteria": [
+      "18+ months break",
+      "Consulting/tech/data/finance exp."
+    ],
+    "region": [
+      "Ireland"
+    ],
+    "tags": [
+      "coaching",
+      "mentoring",
+      "learning"
+    ],
+    "applicationUrl": "https://www.deloitte.com/ie/en/careers/explore-your-fit/professional-careers/return-to-work.html",
+    "description": "Structured 9\u2011month paid placement with hybrid options, coaching, mentoring, and cohort support; potential permanent role upon completion."
+  },
+  {
+    "id": "jnj-reignite",
+    "title": "Johnson & Johnson Re\u2011Ignite Programme",
+    "company": "Johnson & Johnson",
+    "durationWeeks": 24,
+    "paid": true,
+    "eligibility": "Career break of 2+ years (varies by region)",
+    "criteria": [
+      "Significant career break",
+      "STEM/health/tech background preferred"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "support",
+      "transition"
+    ],
+    "applicationUrl": "https://www.careers.jnj.com/en/hiring-programs/re-ignite/",
+    "description": "Paid return\u2011to\u2011work program with onboarding, training, and on\u2011the\u2011job projects, plus mentorship and consideration for full\u2011time roles."
+  },
+  {
+    "id": "amazon-returnship",
+    "title": "Amazon Returnship Program",
+    "company": "Amazon",
+    "durationWeeks": 16,
+    "paid": true,
+    "eligibility": "Returners",
+    "criteria": [
+      "Recent career break",
+      "Relevant prior software/data/PM exp."
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "virtual",
+      "benefits"
+    ],
+    "applicationUrl": "https://womenbacktowork.org/job-seeker/current-returnships/amazon/",
+    "description": "16\u2011week paid, benefit\u2011eligible virtual returnship with structured work assignments and reintegration support; potential full\u2011time offer based on performance."
+  },
+  
+  {
+    "id": "goldman-returnship",
+    "title": "Goldman Sachs Returnship",
+    "company": "Goldman Sachs",
+    "durationWeeks": 12,
+    "paid": true,
+    "eligibility": "Previously employed professionals with 2+ years out of the workforce (region\u2011specific criteria apply)",
+    "criteria": [
+      "Finance/engineering/data experience"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "finance",
+      "engineering"
+    ],
+    "applicationUrl": "https://www.goldmansachs.com/careers/programs-for-professionals/returnship",
+    "description": "Paid 12\u2011week Returnship with on\u2011the\u2011job learning, mentorship, and professional development; strong performers considered for full\u2011time roles."
+  },
+  {
+    "id": "jpmc-reentry",
+    "title": "ReEntry Program",
+    "company": "JPMorgan Chase & Co.",
+    "paid": true,
+    "durationWeeks": 15,
+    "eligibility": "2+ years out of the workforce; experienced professionals",
+    "criteria": [
+      "2+ years career break",
+      "Experience aligned to business needs"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "fellowship",
+      "mentorship",
+      "conversion path"
+    ],
+    "applicationUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/reentry-program",
+    "description": "15\u2011week paid fellowship (April\u2013July) with mentorship, training, and potential conversion to a permanent role."
+  },
+  {
+    "id": "intuit-again",
+    "title": "Intuit Again",
+    "company": "Intuit",
+    "paid": true,
+    "eligibility": "Career break; technologists returning to work",
+    "criteria": [
+      "Software/data/design/PM backgrounds",
+      "Motivation to upskill"
+    ],
+    "region": [
+      "India",
+      "USA"
+    ],
+    "tags": [
+      "engineering",
+      "mentorship",
+      "learning"
+    ],
+    "applicationUrl": "https://www.intuit.com/in/careers/intuit-again/",
+    "description": "Supportive returnship pathway for technologists after a career break, with structured learning and mentored projects. Duration varies by cohort/location."
+  },
+  {
+    "id": "paypal-recharge",
+    "title": "Recharge",
+    "company": "PayPal",
+    "paid": true,
+    "eligibility": "Experienced technologists returning after a career break",
+    "criteria": [
+      "Technical background",
+      "Break for caregiving or other reasons"
+    ],
+    "region": [
+      "Global"
+    ],
+    "tags": [
+      "bootcamp",
+      "returnship",
+      "mentorship"
+    ],
+    "applicationUrl": "https://newsroom.paypal-corp.com/Women-Recharge-and-Reenter-the-Workforce",
+    "description": "Cohort-based returnship; prior cohorts have run ~20 weeks (some regions run shorter bootcamps). Includes training, real project work, and conversion potential."
+  },
+  
+  {
+    "id": "cisco-returnship",
+    "title": "Cisco Return-to-Work (via Women Back to Work)",
+    "company": "Cisco",
+    "paid": true,
+    "eligibility": "Experienced professionals returning after a career break",
+    "criteria": [
+      "5+ years experience (typical)",
+      "2+ years career break (typical)"
+    ],
+    "region": [
+      "USA"
+    ],
+    "tags": [
+      "mentorship",
+      "training",
+      "workshops"
+    ],
+    "applicationUrl": "https://womenbacktowork.org/job-seeker/current-returnships/cisco/",
+    "description": "Comprehensive returnship with mentorship, workshops, and training for technical professionals returning to work after a career break."
+  },
+  {
+    "id": "hubspot-returners",
+    "title": "HubSpot Returners Program",
+    "company": "HubSpot",
+    "paid": true,
+    "durationWeeks": 20,
+    "eligibility": "5+ years experience; 2+ years career break (typical)",
+    "criteria": [
+      "Experienced professionals",
+      "Interest in sales, success, operations, or tech (varies)"
+    ],
+    "region": [
+      "USA",
+      "Ireland",
+      "UK"
+    ],
+    "tags": [
+      "training",
+      "support",
+      "cohort"
+    ],
+    "applicationUrl": "https://www.hubspot.com/returners-program",
+    "description": "20\u2011week program with training, support, and growth opportunities to help returners upskill and transition back to work; cohorts run ~2x per year."
+  }
+]

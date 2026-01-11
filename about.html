@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About us — Re-Rise Her</title>
+  <meta name="description" content="Re-Rise Her — our story and the people behind the platform." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* keep names clean, clickable, and not visibly "link-ish" */
+    .name-link { color: inherit; text-decoration: none; }
+    .name-link:hover, .name-link:focus { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- Top navigation (text brand only, no logo) -->
+  <header class="nav">
+    <a class="brand brand-text" href="index.html#home" aria-label="Re-Rise Her — home">Re-Rise Her</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#home">Home</a>
+      <a href="returners.html">For Returners</a>
+      <a href="recruiters.html">For Recruiters</a>
+      <a class="active" href="about.html">About us</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Intro -->
+    <section class="hero" style="min-height:auto;padding-top:56px;padding-bottom:20px">
+      <div class="container">
+        <div class="kicker">Our story</div>
+        <h1>Why we built Re-Rise Her</h1>
+        <p style="max-width:880px">
+          The website was the result of a 3-month <strong>AWS She Builds</strong> program where
+          <strong><a class="name-link" href="https://www.linkedin.com/in/sanjuraj1998/" target="_blank" rel="noopener noreferrer">Sanju Raj</a></strong> (mentee), under
+          <strong><a class="name-link" href="https://www.linkedin.com/in/joanna-wang-11ab7684/" target="_blank" rel="noopener noreferrer">Joanna Wang</a></strong> (mentor),
+          built the platform using AWS services. The program is designed to give women hands-on exposure to AWS and see what they can build and learn.
+          During this journey, they also sought help from different solution architects to sort technical pieces. The idea and this website are direct outcomes of the She Builds program.
+        </p>
+      </div>
+    </section>
+
+    <!-- People -->
+    <section class="container">
+      <h2>People behind it</h2>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px">
+        <article class="card">
+          <h3>
+            <a class="name-link" href="https://www.linkedin.com/in/joanna-wang-11ab7684/" target="_blank" rel="noopener noreferrer">
+              Joanna Wang
+            </a>
+          </h3>
+          <p>Mentor (AWS She Builds). Guided the vision and architecture choices.</p>
+        </article>
+
+        <article class="card">
+          <h3>
+            <a class="name-link" href="https://www.linkedin.com/in/sanjuraj1998/" target="_blank" rel="noopener noreferrer">
+              Sanju Raj
+            </a>
+          </h3>
+          <p>Mentee(AWS She Builds) Built Re-Rise Her using AWS Services (S3 + CloudFront, Lambda, API Gateway, DynamoDB).</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Re-Rise Her: Built for women, By women.</footer>
+</body>
+</html>

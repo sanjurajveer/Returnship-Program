@@ -1,0 +1,221 @@
+/* =========================
+   Re-Rise Her — lean styles
+   ========================= */
+
+   :root{
+    --bg:#0c0f1d;
+    --card:#121733;
+    --text:#eaf0ff;
+    --muted:#9bb0c9;
+    --accent:#9bf6ff;
+    --accent2:#ffd6a5;
+    --line:rgba(255,255,255,.08);
+  
+    /* layout helpers */
+    --header-h:64px;
+    --footer-h:56px;
+  }
+  
+  /* Base */
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+    font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial}
+  a{color:var(--accent);text-decoration:none}
+  h1,h2,h3{margin:8px 0}
+  small{color:var(--muted)}
+  
+  /* Layout atoms */
+  .container{max-width:1120px;margin:0 auto;padding:22px}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .recruiter-hero.card { background:
+    linear-gradient(180deg, rgba(6,12,18,.78), rgba(6,12,18,.86)),
+    var(--banner) center / cover no-repeat; }
+  .input,select,textarea{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);
+    background:#0d1430;color:var(--text)}
+  .input:focus,select:focus,textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(155,246,255,.25);border-color:var(--accent)}
+  .button{background:var(--accent);color:#001018;border:0;padding:10px 14px;border-radius:12px;font-weight:800;cursor:pointer}
+  .button.alt{background:var(--accent2);color:#2a1400}
+  .footer{border-top:1px solid var(--line);padding:22px;color:var(--muted);text-align:center}
+  
+  /* Header / nav */
+  .nav{
+    position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;
+    padding:14px 18px;min-height:64px;border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(8,10,18,.92),rgba(8,10,18,.86));
+  }
+  .brand-text{font-size:22px;font-weight:800;letter-spacing:.2px}
+  .nav-links{display:flex;align-items:center;gap:6px;margin-left:8px}
+  .nav-links a{padding:8px 12px;border-radius:8px;line-height:44px}
+  .nav-links a:hover,.nav-links a.active{background:rgba(255,255,255,.06);border:1px solid var(--line)}
+  @media (max-width:720px){.nav{flex-wrap:wrap;row-gap:6px}.nav-links{flex-wrap:wrap}}
+  
+  /* ======================
+     Landing (index.html)
+     ====================== */
+  .hero-min{padding-block: clamp(14px, 2.5vh, 24px);border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(900px 380px at 20% -10%, rgba(124,212,255,.14), rgba(0,0,0,0)),
+      radial-gradient(820px 320px at 80% 0%, rgba(255,214,165,.10), rgba(0,0,0,0));
+  }
+  .landing-wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+  .landing-split{
+    display:grid;grid-template-columns:1.05fr 0.95fr;gap:28px;align-items:center;
+    min-height:calc(100svh - var(--header-h) - var(--footer-h));
+  }
+  .hero-kicker{
+    display:block;
+    width:100%;
+    text-align:center;                 /* center the line */
+    text-transform:uppercase;
+    letter-spacing:.22em;              /* a bit more spacing for punch */
+    font-weight:900;
+    color:#dce8ff;
+    font-size:clamp(16px, 2.4vw, 28px);/* larger than before */
+    opacity:.98;
+    margin: clamp(8px, 1.2vh, 16px) auto 14px;  /* balance top/bottom space */
+  }
+  @media (max-width: 900px){
+    .hero-kicker{
+      font-size:clamp(15px, 3.2vw, 22px);
+      letter-spacing:.18em;
+    }
+  }
+  .landing-copy .hero-title{font-size:clamp(34px,5.4vw,60px);line-height:1.06;margin:0 0 12px}
+  .landing-copy .hero-sub{color:var(--muted);font-size:clamp(15px,2.1vw,18px);margin:0 0 18px}
+  .landing-copy .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+  .button.about{background:#9B5CF6;color:#0b0f14}
+  
+  .landing-art{display:grid;place-items:center}
+  .landing-art img{
+    width:min(420px,38vw);height:auto;aspect-ratio:1/1;object-fit:contain;
+    filter:drop-shadow(0 6px 18px rgba(0,0,0,.35));border-radius:12px;
+  }
+  /* Phoenix orange for the coming-soon CTA */
+:root{
+  --phoenix: #FF9A3E;     /* warm orange */
+  --phoenix-900: #D9791F; /* darker hover */
+}
+
+.button.phoenix{
+  background: var(--phoenix);
+  color: #161617;
+  cursor: not-allowed;   /* future feature */
+  opacity: 1;
+}
+
+.button.phoenix:hover{
+  background: var(--phoenix-900);
+}
+
+.cta-row--sub{
+  justify-content: flex-start;  /* was center */
+  margin-top: 8px;              /* a touch tighter */
+}
+  @media (max-width:900px){
+    .landing-split{grid-template-columns:1fr;min-height:auto;text-align:center}
+    .landing-art{order:-1;margin-bottom:8px}
+    .landing-art img{width:min(520px,80vw)}
+  }
+  
+  /* =========================================
+     Returners list (compact, minimalist layout)
+     ========================================= */
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+  .programs-grid{margin-top:10px}            /* small gap under filters */
+  .grid.two-col{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  @media (max-width:920px){.grid.two-col{grid-template-columns:1fr}}
+  
+  .load-more-wrap{display:flex;justify-content:center;margin-top:14px}
+  .load-more{background:transparent;border:1px solid var(--line);color:var(--text);padding:10px 14px;border-radius:12px}
+  .load-more:hover{background:rgba(255,255,255,.06)}
+  
+  /* Cards */
+  .tags-row{margin-top:8px;line-height:1.4}
+  .hashtag{display:inline-block;padding:2px 6px;border-radius:999px;background:rgba(255,255,255,.06);font-size:.9rem;opacity:.9;margin-right:6px}
+  
+  /* ====================================
+   Recruiters — banner fills the section
+   ==================================== */
+.recruiter-hero{
+  /* update this path if your image lives elsewhere */
+  --banner:url("asset/recruiters.png");
+
+  position: relative;
+  margin-top: 16px;
+  padding: 28px clamp(16px,3vw,28px);
+  border-radius: 16px;
+
+  /* The image paints underneath the content and
+     covers the FULL box (padding area included). */
+  background:
+    linear-gradient(180deg, rgba(6,12,18,.78), rgba(6,12,18,.86)), /* legible text */
+    var(--banner) center / cover no-repeat;
+
+  box-shadow: 0 8px 28px rgba(0,0,0,.35);
+}
+
+/* ensure text + inputs are readable on top */
+.recruiter-hero h1,
+.recruiter-hero p,
+.recruiter-hero label,
+.recruiter-hero small { color: #eaf0f7; }
+
+.recruiter-hero .input,
+.recruiter-hero textarea {
+  background: rgba(6,12,18,.65);
+  border: 1px solid rgba(255,255,255,.08);
+  color: #eaf0f7;
+}
+
+/* keep the form from stretching too wide */
+.recruiter-hero .form { max-width: 980px; }
+
+@media (max-width: 640px){
+  .recruiter-hero{ padding: 20px 14px; border-radius: 12px; }
+}
+
+/* “coming soon” button style – looks active, but can’t be clicked */
+.button.soon{
+  background:#9B5CF6;         /* distinct color (not used by the other CTAs) */
+  color:#0b0f14;
+  opacity:.85;
+  cursor:not-allowed;
+}
+.button.soon:hover{ opacity:.85; } /* no hover effect */  
+
+/* Footer spacing (works with min-height calc on landing) */
+footer.footer{margin-top:16px}
+
+
+/* 2-column split for the recruiters hero */
+.recruiter-hero {
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.recruiter-hero-inner {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;   /* left form / right image */
+  gap: clamp(16px, 3vw, 28px);
+  align-items: start;
+}
+
+.recruiter-illustration {
+  display: grid;
+  place-items: center;
+}
+
+.recruiter-illustration img {
+  width: min(520px, 90%);
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+}
+
+/* Stack on smaller screens */
+@media (max-width: 880px) {
+  .recruiter-hero-inner { grid-template-columns: 1fr; }
+  .recruiter-illustration { order: -1; } /* image above form on mobile */
+  .recruiter-illustration img { width: 100%; max-height: none; }
+}

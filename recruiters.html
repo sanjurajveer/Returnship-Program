@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Re-Rise Her — For Recruiters</title>
+  <meta name="description" content="Submit your returnship program to reach talented women returning to tech." />
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+  <!-- Top navigation (text brand only, no logo) -->
+  <header class="nav">
+    <a class="brand brand-text" href="index.html#home" aria-label="Re-Rise Her — home">Re-Rise Her</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#home">Home</a>
+      <a href="returners.html">For Returners</a>
+      <a class="active" href="recruiters.html">For Recruiters</a>
+      <a href="about.html">About us</a>
+    </nav>
+  </header>
+
+ 
+
+  <!-- Main content -->
+  <main class="container narrow">
+    <section class="recruiter-hero">
+        <div class="recruiter-hero-inner">
+          
+          <div>
+            <h1>Suggest a Program</h1>
+            <p><small>Running a returnship or hiring returners? Share your program below. We’ll review and add it.</small></p>
+      
+            <form id="suggest" class="form">
+              <!-- Honeypot (spam trap) -->
+              <input type="text" name="website" autocomplete="off" tabindex="-1"
+                     style="position:absolute;left:-9999px;opacity:0" aria-hidden="true">
+      
+              <label class="row" style="gap:12px;align-items:center">
+                <span style="min-width:140px">Company</span>
+                <input class="input" name="company" placeholder="e.g., Acme Corp" required />
+              </label>
+      
+              <label class="row" style="gap:12px;align-items:center">
+                <span style="min-width:140px">Program link</span>
+                <input class="input" type="url" name="link" placeholder="https://company.com/returnship" required />
+              </label>
+      
+              <label class="row" style="gap:12px;align-items:center">
+                <span style="min-width:140px">Notes (optional)</span>
+                <textarea class="input" name="notes" rows="3" placeholder="Location, duration, who it suits…"></textarea>
+              </label>
+      
+              <div class="row" style="gap:12px;align-items:center;margin-top:8px">
+                <button class="button" id="suggest-btn" type="submit">Send suggestion</button>
+                <span id="suggest-msg" style="font-size:.95rem;opacity:.8"></span>
+              </div>
+            </form>
+          </div>
+      
+          <!-- RIGHT: image -->
+          <aside class="recruiter-illustration">
+            <!-- if the file lives in the asset/ folder, use this path -->
+            <img src="asset/recruiters1.png" alt="" loading="lazy" />
+          </aside>
+        </div>
+      </section>
+      
+  </main>
+
+  <footer class="footer">Re-Rise Her: Built for women, By women.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
